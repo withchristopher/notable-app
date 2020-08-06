@@ -1,28 +1,29 @@
 {
-    "name": "notable-app",
-    "version": "1.0.0",
-    "description": "Notable is an application for Small Business owners to manage their notes.",
-    "main": "server.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "scripts": {
-        "test": "jest",
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/withchristopher/notable-app.git"
-    },
-    "author": "CS Maxwell",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.17.1",
-        "jest": "^26.1.0"
-    },
-    "bugs": {
-        "url": "https://github.com/withchristopher/notable-app/issues"
-    },
-    "homepage": "https://github.com/withchristopher/notable-app#readme",
-    "keywords": []
+  "name": "notable-app",
+  "version": "1.0.0",
+  "description": "Notable is an application for Small Business owners to manage their notes.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withchristopher/notable-app.git"
+  },
+  "author": "CS Maxwell",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.2.2",
+    "require": "^2.4.20"
+  },
+  "bugs": {
+    "url": "https://github.com/withchristopher/notable-app/issues"
+  },
+  "homepage": "https://github.com/withchristopher/notable-app#readme",
+  "keywords": []
 }
