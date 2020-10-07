@@ -1,6 +1,6 @@
 const express = require("express");
-const apiRoutes = require("./routes/apiroutes");
-const htmlRoutes = require("./routes/htmlroutes");
+const apiRoutes = require("./routes/apiRoutes");
+const htmlRoutes = require("./routes/htmlRoutes");
 
 const PORT = process.env.PORT || 3001;
 

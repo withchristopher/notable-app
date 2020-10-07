@@ -1,4 +1,4 @@
-const router = require("./node_modules/express").Router();
+const router = require("express").Router();
 const db = require('../../db/db.json');
 const {
     createNote
@@ -12,7 +12,6 @@ router.get('/notes', (req, res) => {
 router.post("/notes", (res, req) => {
     req.body.id = db.length.toString();
     const note = createNote(req.body, db);
-
     res.json(note);
 });
 
